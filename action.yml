@@ -4,3 +4,6 @@ author: "Smartly.io"
 runs:
   using: "docker"
   image: "Dockerfile"
+outputs:
+  changelog:
+    description: "The changelog between the latest tag and previous one"
